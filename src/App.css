@@ -1,0 +1,179 @@
+/* ========== DARK MODE STYLES ========== */
+.dark-mode {
+  background-color: #0a0e27;
+}
+
+.dark-mode .App {
+  background-color: #0a0e27;
+}
+
+/* Dark mode - Navigation */
+.dark-mode nav {
+  background-color: #0f1535 !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark-mode nav h2 {
+  color: #667eea !important;
+}
+
+.dark-mode nav .link {
+  color: #ffffff !important;
+}
+
+.dark-mode nav .link:hover {
+  color: #667eea !important;
+}
+
+/* Dark mode - Sections */
+.dark-mode #about {
+  background-color: #0f1535 !important;
+}
+
+.dark-mode #skills {
+  background-color: #0a0e27 !important;
+}
+
+.dark-mode #projects {
+  background-color: #0f1535 !important;
+}
+
+.dark-mode #contact {
+  background-color: #0a0e27 !important;
+}
+
+/* Dark mode - Section Titles */
+.dark-mode .sectionTitle {
+  color: #ffffff !important;
+}
+
+/* Dark mode - Cards */
+.dark-mode .skill-card,
+.dark-mode .project-card,
+.dark-mode .info {
+  background-color: #1a1f4e !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark-mode .skill-card h3,
+.dark-mode .project-card h3 {
+  color: #667eea !important;
+}
+
+.dark-mode .skill-card .percentage,
+.dark-mode .project-card p {
+  color: #ffffff !important;
+}
+
+/* Dark mode - Hero */
+.dark-mode #home {
+  background: linear-gradient(135deg, #0a0e27 0%, #1a1f4e 100%) !important;
+}
+
+/* Dark mode - Form Inputs and Labels - AYOS NA! */
+.dark-mode .inputGroup input,
+.dark-mode .inputGroup textarea {
+  background-color: #1a1f4e !important;
+  color: #ffffff !important;
+  border-color: #667eea !important;
+}
+
+.dark-mode .inputGroup label {
+  background-color: #1a1f4e !important;
+  color: #aaaaaa !important;
+}
+
+/* Kapag may laman na ang input o naka-focus, asul ang label */
+.dark-mode .inputGroup input:focus ~ label,
+.dark-mode .inputGroup textarea:focus ~ label,
+.dark-mode .inputGroup input:not(:placeholder-shown) ~ label,
+.dark-mode .inputGroup textarea:not(:placeholder-shown) ~ label {
+  color: #667eea !important;
+  background-color: #1a1f4e !important;
+}
+
+/* Focus effect sa inputs */
+.dark-mode .inputGroup input:focus,
+.dark-mode .inputGroup textarea:focus {
+  border-color: #764ba2 !important;
+  box-shadow: 0 0 10px rgba(102, 126, 234, 0.3) !important;
+}
+
+.dark-mode .inputGroup input::placeholder,
+.dark-mode .inputGroup textarea::placeholder {
+  color: #666 !important;
+}
+
+/* Dark mode - Contact Info */
+.dark-mode .info h3 {
+  color: #667eea !important;
+}
+
+.dark-mode .info p {
+  color: #cccccc !important;
+}
+
+.dark-mode .details p {
+  color: #ffffff !important;
+}
+
+/* Dark mode - Social Links */
+.dark-mode .socialLink {
+  background-color: #667eea !important;
+  color: white !important;
+}
+
+.dark-mode .socialLink:hover {
+  background-color: #764ba2 !important;
+}
+
+/* Dark mode - Tech Stack */
+.dark-mode .tech {
+  background-color: #0a0e27 !important;
+  color: #667eea !important;
+}
+
+/* Dark mode - Progress Bar */
+.dark-mode .progressBar {
+  background-color: #0f1535 !important;
+}
+
+.dark-mode .progress {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #667eea 100%) !important;
+}
+
+/* Dark mode - Back to Top */
+.dark-mode .backToTop {
+  background-color: #667eea !important;
+}
+
+.dark-mode .backToTop:hover {
+  background-color: #764ba2 !important;
+}
+
+/* Dark mode - Hover Effects */
+.dark-mode .project-card:hover {
+  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.5);
+  border: 1px solid #667eea;
+}
+
+.dark-mode .project-card:hover h3 {
+  color: #667eea !important;
+}
+
+.dark-mode .skill-card:hover {
+  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.4);
+}
+
+.dark-mode .skill-card:hover .progress {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+/* Dark mode - Floating Socials */
+.dark-mode .socialIcon {
+  background-color: #667eea !important;
+}
+
+.dark-mode .socialIcon:hover {
+  background-color: #764ba2 !important;
+}
